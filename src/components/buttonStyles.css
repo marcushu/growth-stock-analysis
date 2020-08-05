@@ -1,0 +1,26 @@
+.UnSelected  {
+    color: rgb(129, 129, 129);
+    background-color: white;
+    padding: 10px;
+    font-family: Arial;
+    border: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 12px
+  }
+
+.btnSelected  {
+    color: rgb(20, 20, 20);
+    padding: 10px;
+    background-color: rgb(238, 238, 238);
+    font-family: Arial;
+    border: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 12px
+  }
+
+.btnSelected:active, .btnSelected:focus{
+    outline: 0;
+    border: none;
+}

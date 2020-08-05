@@ -1,0 +1,703 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Fiscal Fitness form 1`] = `
+<DocumentFragment>
+  <div
+    class="shadow p-4 m-1"
+    style="background-color: rgb(255, 255, 255);"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col"
+      >
+        <h5>
+          Income Statement
+        </h5>
+        <hr
+          style="border: 3px solid rgb(86, 141, 212);"
+        />
+        <div
+          class="row"
+        >
+          <div
+            class="col-sm-4"
+          >
+            <br />
+            Sales Growth
+          </div>
+          <div
+            class="col-sm-4"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                  for="formGroupEmail"
+                >
+                  TTM Sales
+                </label>
+                <input
+                  class="form-control"
+                  id="formGroupEmail"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+          <div
+            class="col-sm-4"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                  for="formGroupEmail"
+                >
+                  Year ago TTM Sales
+                </label>
+                <input
+                  class="form-control"
+                  id="formGroupEmail"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-sm-4"
+          >
+            <br />
+            TTM Gross Margin
+          </div>
+          <div
+            class="col-sm-4"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                  for="formGroupEmail"
+                >
+                  TTM Gross Profit
+                </label>
+                <input
+                  class="form-control"
+                  id="formGroupEmail"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+          <div
+            class="col-sm-4"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                  for="formGroupEmail"
+                >
+                  Sales
+                </label>
+                <input
+                  class="form-control"
+                  id="formGroupEmail"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-sm-4"
+          >
+            <br />
+            Year ago Gross Margin
+          </div>
+          <div
+            class="col-sm-4"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                  for="formGroupEmail"
+                >
+                  Year ago gross profit
+                </label>
+                <input
+                  class="form-control"
+                  id="formGroupEmail"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+          <div
+            class="col-sm-4"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                  for="formGroupEmail"
+                >
+                  Year ago Sales
+                </label>
+                <input
+                  class="form-control"
+                  id="formGroupEmail"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-sm-4"
+          >
+            <br />
+            Net income growth
+          </div>
+          <div
+            class="col-sm-4"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                  for="formGroupEmail"
+                >
+                  TTM Net Income
+                </label>
+                <input
+                  class="form-control"
+                  id="formGroupEmail"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+          <div
+            class="col-sm-4"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                  for="formGroupEmail"
+                >
+                  Year Ago NI
+                </label>
+                <input
+                  class="form-control"
+                  id="formGroupEmail"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col"
+          />
+          <div
+            class="col"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                >
+                  TTM EBITA
+                </label>
+                <input
+                  class="form-control"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+          <div
+            class="col"
+          />
+        </div>
+        <h5>
+          Balance Sheet
+        </h5>
+        <hr
+          style="border: 3px solid rgb(86, 141, 212);"
+        />
+        <div
+          class="row"
+        >
+          <div
+            class="col-sm-4"
+          >
+            <br />
+            Asset Growth
+          </div>
+          <div
+            class="col-sm-4"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                  for="formGroupEmail"
+                >
+                  Total Assets
+                </label>
+                <input
+                  class="form-control"
+                  id="formGroupEmail"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+          <div
+            class="col-sm-4"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                  for="formGroupEmail"
+                >
+                  Year ago Total Assets
+                </label>
+                <input
+                  class="form-control"
+                  id="formGroupEmail"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-sm-4"
+          >
+            <br />
+            Total Liabilities Growth
+          </div>
+          <div
+            class="col-sm-4"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                  for="formGroupEmail"
+                >
+                  Latest TL
+                </label>
+                <input
+                  class="form-control"
+                  id="formGroupEmail"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+          <div
+            class="col-sm-4"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                  for="formGroupEmail"
+                >
+                  Year ago TL
+                </label>
+                <input
+                  class="form-control"
+                  id="formGroupEmail"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-sm-4"
+          >
+            <br />
+            Current Ratio
+          </div>
+          <div
+            class="col-sm-4"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                  for="formGroupEmail"
+                >
+                  Latest Current Assets
+                </label>
+                <input
+                  class="form-control"
+                  id="formGroupEmail"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+          <div
+            class="col-sm-4"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                  for="formGroupEmail"
+                >
+                  Current Liabilities
+                </label>
+                <input
+                  class="form-control"
+                  id="formGroupEmail"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-sm-4"
+          >
+            <br />
+            Current Ration(Year Ago)
+          </div>
+          <div
+            class="col-sm-4"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                  for="formGroupEmail"
+                >
+                  YA Current Assets
+                </label>
+                <input
+                  class="form-control"
+                  id="formGroupEmail"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+          <div
+            class="col-sm-4"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                  for="formGroupEmail"
+                >
+                  YA Current Liabilities
+                </label>
+                <input
+                  class="form-control"
+                  id="formGroupEmail"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-sm-4"
+          >
+            <br />
+            Total Liabilities to EBITDA
+          </div>
+          <div
+            class="col-sm-4"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                  for="formGroupEmail"
+                >
+                  Total Liabilities
+                </label>
+                <input
+                  class="form-control"
+                  id="formGroupEmail"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+          <div
+            class="col-sm-4"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                  for="formGroupEmail"
+                >
+                  Year Ago
+                </label>
+                <input
+                  class="form-control"
+                  id="formGroupEmail"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col"
+          />
+          <div
+            class="col"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                >
+                  TTM Operating Cash Flow
+                </label>
+                <input
+                  class="form-control"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+          <div
+            class="col"
+          />
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col"
+          />
+          <div
+            class="col"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                >
+                  Shares Out
+                </label>
+                <input
+                  class="form-control"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+          <div
+            class="col"
+          />
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col"
+          />
+          <div
+            class="col"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="font-weight-light form-label"
+                >
+                  LY Shares Out
+                </label>
+                <input
+                  class="form-control"
+                  style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                  type="text"
+                  value="0"
+                />
+              </div>
+            </form>
+          </div>
+          <div
+            class="col"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

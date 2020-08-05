@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Big Button renders ok 1`] = `
+<DocumentFragment>
+  <button
+    class="UnSelected"
+  >
+    Quick Pre-qualify
+    <img
+      alt="Quick Pre-qualify"
+      src="thumbsUp"
+    />
+  </button>
+</DocumentFragment>
+`;

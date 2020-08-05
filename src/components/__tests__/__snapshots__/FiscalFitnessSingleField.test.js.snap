@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fiscal fitness single field renders 1`] = `
+<DocumentFragment>
+  <div
+    class="row"
+  >
+    <div
+      class="col"
+    />
+    <div
+      class="col"
+    >
+      <form
+        class=""
+      >
+        <div
+          class="form-group"
+        >
+          <label
+            class="font-weight-light form-label"
+          >
+            test_title
+          </label>
+          <input
+            class="form-control"
+            style="width: 150px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+            type="text"
+            value="0"
+          />
+        </div>
+      </form>
+    </div>
+    <div
+      class="col"
+    />
+  </div>
+</DocumentFragment>
+`;

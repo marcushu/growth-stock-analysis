@@ -1,0 +1,353 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App ok 1`] = `
+<DocumentFragment>
+  <div
+    class="App container-fluid"
+  >
+    <div
+      class="pt-4 row"
+    >
+      <div
+        class="col"
+        style="background-color: rgb(86, 141, 212); color: aliceblue;"
+      >
+        <h2>
+          Growth Analysis
+        </h2>
+         the process
+      </div>
+    </div>
+    <div
+      class="py-4 row"
+      style="background-color: rgb(250, 250, 250);"
+    >
+      <div
+        class="col-lg-3"
+      >
+        <br />
+        <div
+          class="text-center"
+        >
+          <h5
+            class="font-italic"
+          >
+            Fire Your Stock Analyst!
+          </h5>
+          <div
+            class="font-weight-lighter"
+          >
+            <p>
+              Growth investing is the process of idendifying strong, long tearm candidates.
+            </p>
+            <p>
+              Use the tools on this site to quage the health of a prospective business investment.
+            </p>
+            <p />
+          </div>
+          <img
+            class="img-fluid img-thumbnail"
+            src="cover.jpg"
+          />
+          <div
+            class="font-italic"
+          >
+            Analyzing stocks on your own
+            <br />
+            isbn 0-13-035332-9
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-lg-7"
+      >
+        <div
+          class="m-1 p-3 shadow row"
+          style="background-color: white;"
+        >
+          <div
+            class="d-flex justify-content-around col"
+          >
+            <a
+              href="/disqualify"
+            >
+              <button
+                class="btnSelected"
+              >
+                Quick Pre-qualify
+                <img
+                  alt="Quick Pre-qualify"
+                  src="icons8-thumbs-up-64.png"
+                />
+              </button>
+            </a>
+            <a
+              href="/questionaire"
+            >
+              <button
+                class="UnSelected"
+              >
+                Performance
+                <img
+                  alt="Performance"
+                  src="icons8-pass-fail-64.png"
+                />
+              </button>
+            </a>
+            <a
+              href="/fiscalFitness"
+            >
+              <button
+                class="UnSelected"
+              >
+                Fiscal Fitness
+                <img
+                  alt="Fiscal Fitness"
+                  src="icons8-calculator-64.png"
+                />
+              </button>
+            </a>
+          </div>
+        </div>
+        <br />
+        <div
+          class="shadow p-3"
+          style="background-color: rgb(255, 255, 255);"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="text-center col"
+            >
+              <h3>
+                Quick Pre-qualify
+              </h3>
+              <hr
+                style="border: 3px solid rgb(86, 141, 212);"
+              />
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col"
+            >
+              <h5>
+                <span
+                  class="font-weight-bolder"
+                >
+                  Market cap
+                </span>
+              </h5>
+              <br />
+              <h5>
+                <span
+                  class="font-weight-bolder"
+                >
+                  Trading volume
+                </span>
+              </h5>
+              <br />
+              <h5>
+                <span
+                  class="font-weight-bolder"
+                >
+                  Trailing twelve month cash flow
+                </span>
+              </h5>
+              <br />
+              <h5>
+                <span
+                  class="font-weight-bolder"
+                >
+                  Sales
+                </span>
+                 
+              </h5>
+            </div>
+            <div
+              class="col"
+            >
+              <h5>
+                &gt; 50 million
+              </h5>
+               
+              <br />
+              <h5>
+                 &gt; 50,000 shares
+              </h5>
+               
+              <br />
+              <h5>
+                positive
+              </h5>
+               
+              <br />
+              <h5>
+                greater than 40 mi over last four quarters
+              </h5>
+               
+              <br />
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col"
+            >
+              <h5>
+                <form
+                  class=""
+                >
+                  <div
+                    class="form-row"
+                  >
+                    <label
+                      class="form-label col-form-label col"
+                    >
+                      <span
+                        class="font-weight-bolder"
+                      >
+                        price/sales
+                      </span>
+                       3 - 9
+                    </label>
+                    <div
+                      class="pb-1 col-xl"
+                    >
+                      <input
+                        class="form-control"
+                        style="width: 140px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                        value="0"
+                      />
+                    </div>
+                    <div
+                      class="col-xl"
+                    >
+                      <input
+                        class="form-control"
+                        style="width: 140px; margin-right: 20px; border: 0px; background-color: rgb(227, 227, 227);"
+                        value="0"
+                      />
+                    </div>
+                    <label
+                      class="form-label col-form-label col"
+                    >
+                      <div
+                        style="color: rgb(86, 141, 212);"
+                      >
+                        0.0
+                      </div>
+                    </label>
+                  </div>
+                </form>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-lg-2"
+      >
+        <br />
+        <div>
+          <div
+            class="row"
+          >
+            <div
+              class="col"
+            >
+              <div
+                class="pt-4 card"
+              >
+                <div
+                  id="gauge-chart3"
+                  style="width: 100%;"
+                >
+                  <svg
+                    height="0"
+                    width="0"
+                  >
+                    <g
+                      transform="translate(0, 0)"
+                    >
+                      <g
+                        class="doughnut"
+                        transform="translate(0, 0)"
+                      >
+                        <g
+                          class="arc"
+                        >
+                          <path
+                            d="M0,0Z"
+                            style="fill: #d487a3;"
+                          />
+                        </g>
+                        <g
+                          class="arc"
+                        >
+                          <path
+                            d="M0,0Z"
+                            style="fill: rgb(86, 141, 212);"
+                          />
+                        </g>
+                        <g
+                          class="arc"
+                        >
+                          <path
+                            d="M0,0Z"
+                            style="fill: rgb(86, 141, 212);"
+                          />
+                        </g>
+                      </g>
+                      <g
+                        class="needle"
+                        transform="translate(0, 0)"
+                      >
+                        <path
+                          d="M 0 0 L 0 0 L 0 0"
+                          fill="#464A4F"
+                        />
+                        <circle
+                          cx="0"
+                          cy="0"
+                          fill="#464A4F"
+                          r="0"
+                        />
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <div
+                  class="text-center"
+                >
+                  <h5>
+                    Total Score
+                  </h5>
+                  <h3
+                    style="color: rgb(86, 141, 212);"
+                  >
+                    0
+                  </h3>
+                </div>
+              </div>
+              <br />
+              <br />
+              <div
+                class="text-center"
+              >
+                Look for a score above 0. 
+                <br />
+                 A score between 4 and 9 indicates a solid company poised for long tearm growth.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
