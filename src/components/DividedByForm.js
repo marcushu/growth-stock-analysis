@@ -1,27 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 
-class DividedByForm extends React.Component {
-  constructor() {
-    super();
 
-    this.state = {
-      lVal: '0',
-      rVal: '0',
-      equals: 0
-    }
-  }
-
-  changeMe = (e, val) => {
-    this.setState({ [val]: e.target.value }, () => {
-      let result = this.state.lVal / this.state.rVal;
-
-      this.setState({ equals: result > 0 && result < Infinity ? result : 0 })
-    });
-  }
-
-  render() {
+export default function DividedByForm() {
+  const [lVal, setLval] = useState('0');
+  const [rVal, setRval] = useState('0');
+  const [equals, setEquals] = useState(0);
+  
+  const safeDiv = (l, r) => l/r > 0 && l/r < Infinity ? l/r : 0 
+ 
     return (
       <Form>
         <Form.Row>
@@ -30,28 +18,28 @@ class DividedByForm extends React.Component {
           </Form.Label>
           <Col xl className="pb-1">
             <Form.Control
-              value={this.state.lVal}
-              onChange={(e) => this.changeMe(e, "lVal")}
+              value={lVal}
+              onChange={ e => {
+                setLval(e.target.value);
+                setEquals(safeDiv(e.target.value, rVal));
+              }}
               style={{ width: "140px", marginRight: "20px", border: "0", backgroundColor: "#E3E3E3" }} />
           </Col>
           <Col xl>
             <Form.Control
-              value={this.state.rVal}
-              onChange={(e) => this.changeMe(e, "rVal")}
+              value={rVal}
+              onChange={ e => {
+                setRval(e.target.value);
+                setEquals(safeDiv(lVal, e.target.value));
+              }}
               style={{ width: "140px", marginRight: "20px", border: "0", backgroundColor: "#E3E3E3" }} />
           </Col>
           <Form.Label column>
             <div style={{ color: "rgb(86, 141, 212)" }}>
-              {this.state.equals.toFixed(1)}
+              {equals.toFixed(1)} 
             </div>            
           </Form.Label>
         </Form.Row>
       </Form>
     )
-  }
-
 }
-
-export default DividedByForm
-
-

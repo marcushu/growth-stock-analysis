@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import DividedByForm from './DividedByForm';
 
-const Disqualify = () => {
+export default function Disqualify() {
   return (
     <div className="shadow p-3" style={{ backgroundColor: "rgb(255, 255, 255)" }}>
       <Row>
@@ -38,5 +38,3 @@ const Disqualify = () => {
   )
 
 }
-
-export default Disqualify

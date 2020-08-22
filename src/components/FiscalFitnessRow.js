@@ -1,51 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 
-class FiscalFitnessRow extends React.Component {
-  constructor(props) {
-    super(props);
+export default function FiscalFitnessRow(props) {
+    let [lVal, setLval] = useState(props.lval);
+    let [rVal, setRval] = useState(props.rval);
 
-    this.state = {
-      lVal: this.props.lval,
-      rVal: this.props.rval
-    }
-
-    FiscalFitnessRow.propTypes = {
-      scoresId: PropTypes.string,
-      title: PropTypes.string,
-      lLabel: PropTypes.string,
-      rLabel: PropTypes.string,
-      lval: PropTypes.number,
-      rval: PropTypes.number,
-      calcFunc: PropTypes.func
-    }
-  }
-
-  changeMe = (e, val) => {
-    this.setState({ [val]: e.target.value }, () => {
-      this.props.calcFunc({
-        lval: this.state.lVal,
-        rval: this.state.rVal,
-        id: this.props.scoresId
-      });
-    });
-  }
-
-  render() {
     return (
       <Row>
-        <Col sm={4}><br />{this.props.title}</Col>
+        <Col sm={4}><br />{props.title}</Col>
         <Col sm={4}>
           <Form>
             <Form.Group controlId="formGroupEmail">
-              <Form.Label className="font-weight-light">{this.props.lLabel}</Form.Label>
+              <Form.Label className="font-weight-light">{props.lLabel}</Form.Label>
               <Form.Control
                 type="text"
-                value={this.state.lVal}
-                onChange={(e) => this.changeMe(e, "lVal")}
+                value={lVal}
+                onChange={ e => {
+                  setLval(e.target.value);
+                  props.calcFunc({lval: e.target.value, rval: rVal, id: props.scoresId}); 
+                }}
                 style={{ width: "150px", marginRight: "20px", border: "0", backgroundColor: "#E3E3E3" }}
               />
             </Form.Group>
@@ -54,11 +30,13 @@ class FiscalFitnessRow extends React.Component {
         <Col sm={4}>
           <Form>
             <Form.Group controlId="formGroupEmail">
-              <Form.Label className="font-weight-light">{this.props.rLabel}</Form.Label>
+              <Form.Label className="font-weight-light">{props.rLabel}</Form.Label>
               <Form.Control
                 type="text"
-                value={this.state.rVal}
-                onChange={(e) => this.changeMe(e, "rVal")}
+                value={rVal}
+                onChange={(e) => {
+                  setRval(e.target.value);
+                  props.calcFunc({lval: lVal, rval: e.target.value, id: props.scoresId}); }}
                 style={{ width: "150px", marginRight: "20px", border: "0", backgroundColor: "#E3E3E3" }}
               />
             </Form.Group>
@@ -66,7 +44,14 @@ class FiscalFitnessRow extends React.Component {
         </Col>
       </Row>
     )
-  }
 }
 
-export default FiscalFitnessRow;
+FiscalFitnessRow.propTypes = {
+  scoresId: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  lLabel: PropTypes.string.isRequired,
+  rLabel: PropTypes.string.isRequired,
+  lval: PropTypes.number.isRequired,
+  rval: PropTypes.number.isRequired,
+  calcFunc: PropTypes.func.isRequired
+}

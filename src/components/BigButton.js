@@ -2,15 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './buttonStyles.css'
 
-const BigButton = (props) => {
-  const handleClick = () => {
-    props.selectedHandler(props.caption);
-  }
+export default function BigButton(props){
 
   return (
     <button
       className={props.selectedState ? "btnSelected" : "UnSelected"}
-      onClick={handleClick}>
+      onClick={() => props.selectedHandler(props.caption)}>
       {props.caption}
       <img src={props.image} alt={props.altTxt} />
     </button>
@@ -18,11 +15,9 @@ const BigButton = (props) => {
 }
 
 BigButton.propTypes = {
-  caption: PropTypes.string,
-  image: PropTypes.string,
-  selectedState: PropTypes.bool,
-  selectedHandler: PropTypes.func,
-  altTxt: PropTypes.string
+  caption: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  selectedState: PropTypes.bool.isRequired,
+  selectedHandler: PropTypes.func.isRequired,
+  altTxt: PropTypes.string.isRequired
 }
-
-export default BigButton
