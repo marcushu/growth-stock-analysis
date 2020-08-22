@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'react-bootstrap/Image'
 import coverphoto from '../assets/cover.jpg';
 
-function LeftPanel() {
+export default function LeftPanel() {
     return (
         <div className="text-center">
             <h5 className="font-italic">Fire Your Stock Analyst!</h5>
@@ -20,5 +20,3 @@ function LeftPanel() {
 
     )
 }
-
-export default LeftPanel;
