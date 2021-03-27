@@ -9,7 +9,7 @@ describe("Big Button", () => {
     const { asFragment } = render(<BigButton
       caption="Quick Pre-qualify"
       image={"thumbsUp"}
-      altTxt={"Quick Pre-qualify"}
+      altTxt="Quick Pre-qualify"
       selectedState={false}
       selectedHandler={() => { }} />);
 
@@ -17,7 +17,12 @@ describe("Big Button", () => {
   });
 
  it("renders with class set to UnSelected", () => {
-    const { container } = render(<BigButton />);
+    const { container } = render(<BigButton
+      caption="Quick Pre-qualify"
+      image={"thumbsUp"}
+      altTxt="Quick Pre-qualify"
+      selectedState={false}
+      selectedHandler={() => { }} />);
 
     expect(container.innerHTML.includes("UnSelected")).toBeTruthy();
   });

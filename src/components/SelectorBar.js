@@ -19,7 +19,7 @@ export default function SelectorBar() {
             <BigButton
               caption="Quick Pre-qualify"
               image={thumbsUp}
-              altTxt={"Quick Pre-qualify"}
+              altTxt="Quick Pre-qualify"
               selectedState={disqualifySelected}
               //selectedHandler={this.updateButton} />
               selectedHandler={() => { 
@@ -32,7 +32,7 @@ export default function SelectorBar() {
             <BigButton
               caption="Performance"
               image={checklist}
-              altTxt={"Performance"}
+              altTxt="Performance"
               selectedState={questionaireSelected}
               selectedHandler={() => {
                 setDisqualifySelected(disqualifySelected = false);
@@ -45,7 +45,7 @@ export default function SelectorBar() {
             <BigButton
               caption="Fiscal Fitness"
               image={calculator}
-              altTxt={"Fiscal Fitness"}
+              altTxt="Fiscal Fitness"
               selectedState={FfitnessSelected}
               selectedHandler={() => {
                 setDisqualifySelected(disqualifySelected = false);
