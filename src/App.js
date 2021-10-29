@@ -25,13 +25,6 @@ class App extends React.Component {
     }
   }
 
-  updateGrowthState = (qrowthState) => {
-    this.setState({ growthQuestionState: qrowthState });
-  }
-
-  updateFFitnessScore = (FFstate) => {
-    this.setState({ FiscalfitnessState: FFstate });
-  }
 
   render() {
     return (
@@ -56,12 +49,12 @@ class App extends React.Component {
                 </Route>
                 <Route path="/questionaire">
                   <Questionaire
-                    submitScore={this.updateGrowthState}
+                    submitScore={score => this.setState({ growthQuestionState: score})}
                     selectedValues={this.state.growthQuestionState} />
                 </Route>
                 <Route path="/fiscalFitness">
                   <FiscalFitness
-                    submitScore={this.updateFFitnessScore}
+                    submitScore={ffScore => this.setState({ FiscalfitnessState: ffScore })}
                     fState={this.state.FiscalfitnessState} />
                 </Route>
                 <Route path="/">
