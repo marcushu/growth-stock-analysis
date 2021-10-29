@@ -1,6 +1,6 @@
 ## Growth Stock Analyst
 
-![image of the app](https://marcus-hurn.web.app/img/grthAnalysis.png)
+![image of the app](https://marcus-hurn.web.app/images/grthAnalysissm.png)
 
 **An app to Evaluate a candidate company's financials**
 
