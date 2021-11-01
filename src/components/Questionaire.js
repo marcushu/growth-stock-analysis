@@ -18,6 +18,10 @@ class Questionaire extends React.Component {
     }
   }
 
+  questionBorder = {
+    border: "3px solid rgb(86, 141, 212)"
+  }
+
   addScore = compoonentScore => {
     let result = this.state.totalScore - compoonentScore.oldVal + compoonentScore.newVal;
 
@@ -39,7 +43,7 @@ class Questionaire extends React.Component {
     return (
       <div className="shadow p-3" style={{ backgroundColor: "rgb(255, 255, 255)" }}>
         <h5>Analysts' Ratings & Forecasts</h5>
-        <hr style={{ border: "3px solid rgb(86, 141, 212)" }} />
+        <hr style={this.questionBorder} />
         {this.state.selectedValues.analysts.map((vals, index) => {
           return (
             <div key={index}>
@@ -55,7 +59,7 @@ class Questionaire extends React.Component {
         })}
 
         <h5>Valuation</h5>
-        <hr style={{ border: "3px solid rgb(86, 141, 212)" }} />
+        <hr style={this.questionBorder} />
         {this.state.selectedValues.valuation.map((vals, index) => {
           return (
             <div key={index}>
@@ -71,7 +75,7 @@ class Questionaire extends React.Component {
         })}
 
         <h5>Target Price</h5>
-        <hr style={{ border: "3px solid rgb(86, 141, 212)" }} />
+        <hr style={this.questionBorder} />
         {this.state.selectedValues.targetPrice.map((vals, index) => {
           return (
             <div key={index}>
@@ -88,7 +92,7 @@ class Questionaire extends React.Component {
 
 
         <h5>Industry Analysis</h5>
-        <hr style={{ border: "3px solid rgb(86, 141, 212)" }} />
+        <hr style={this.questionBorder} />
         {this.state.selectedValues.industrAnysis.map((vals, index) => {
           return (
             <div key={index}>
@@ -104,7 +108,7 @@ class Questionaire extends React.Component {
         })}
 
         <h5>Management Quality</h5>
-        <hr style={{ border: "3px solid rgb(86, 141, 212)" }} />
+        <hr style={this.questionBorder} />
         {this.state.selectedValues.management.map((vals, index) => {
           return (
             <div key={index}>
@@ -120,7 +124,7 @@ class Questionaire extends React.Component {
         })}
 
         <h5>Profitability</h5>
-        <hr style={{ border: "3px solid rgb(86, 141, 212)" }} />
+        <hr style={this.questionBorder} />
         {this.state.selectedValues.profitability.map((vals, index) => {
           return (
             <div key={index}>
@@ -136,7 +140,7 @@ class Questionaire extends React.Component {
         })}
 
         <h5>Ownership</h5>
-        <hr style={{ border: "3px solid rgb(86, 141, 212)" }} />
+        <hr style={this.questionBorder} />
         {this.state.selectedValues.ownership.map((vals, index) => {
           return (
             <div key={index}>
@@ -152,7 +156,7 @@ class Questionaire extends React.Component {
         })}
 
         <h5>Price Chart</h5>
-        <hr style={{ border: "3px solid rgb(86, 141, 212)" }} />
+        <hr style={this.questionBorder} />
         {this.state.selectedValues.priceChart.map((vals, index) => {
           return (
             <div key={index}>
@@ -168,7 +172,7 @@ class Questionaire extends React.Component {
         })}
 
         <h5>Business Plan</h5>
-        <hr style={{ border: "3px solid rgb(86, 141, 212)" }} />
+        <hr style={this.questionBorder} />
         {this.state.selectedValues.businessPlan.map((vals, index) => {
           return (
             <div key={index}>
